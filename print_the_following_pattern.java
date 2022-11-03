@@ -1,3 +1,3 @@
 import java.util.Scanner;
 class sample
-{ public static void main(String args[]) { Scanner Sc=new Scanner(System.in); int rows=Sc.nextInt(); for(int i=rows;i>=1;i--) { for(int j=1;j<=i;j++) { System.out.print(j+""); } System.out.println(); } }}
+{ public static void main(String args[]) { Scanner Sc=new Scanner(System.in); int row_size,out,in; row_size=Sc.nextInt(); for(out=row_size;out>=1;out--) { for(in=row_size;in>=1;in--) System.out.print(in+" "); System.out.println(); } }}
